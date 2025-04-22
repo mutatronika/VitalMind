@@ -14,6 +14,8 @@ VitalMind es un agente inteligente diseñado para apoyar el seguimiento de salud
 
 ---
 
+
+
 ## ⚙️ Configuración del proyecto
 
 ### 1. Clonar repositorio
@@ -24,6 +26,7 @@ cd VitalMind
 ```
 
 ### 2. Copiar variables de entorno
+https://github.com/settings/personal-access-tokens
 ```
 cp .env.example .env
 ```
@@ -37,4 +40,6 @@ python -m venv venv
 venv\Scripts\activate
 ```
 ### 4. Instalar dependencias    
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
