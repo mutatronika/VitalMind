@@ -1,0 +1,2 @@
+# VitalMind
+ IA Agent
