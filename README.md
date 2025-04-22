@@ -3,7 +3,7 @@
 
 Agente para consultas medicas
 
-#Comandos 
+# Comandos 
 
 Agregar credenciales Github, Openai, Azure en .env
 cp .env.example .env
