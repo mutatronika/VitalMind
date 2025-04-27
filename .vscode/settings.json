@@ -1,0 +1,6 @@
+{
+    "DockerRun.DisableDockerrc": true,
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
+}
