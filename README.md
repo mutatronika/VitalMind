@@ -37,12 +37,9 @@ source venv/bin/activate
 ```
 ```
 python -m venv venv
-<<<<<<< HEAD
 .\venv\Scripts\activate
-=======
 
-venv\Scripts\activate
->>>>>>> upstream/main
+
 
 python3 -m venv venv
 source venv/bin/activate
@@ -51,4 +48,6 @@ source venv/bin/activate
 ### 4. Instalar dependencias    
 ```
 pip install -r requirements.txt
+
 ```
+
