@@ -40,6 +40,7 @@ python -m venv venv
 <<<<<<< HEAD
 .\venv\Scripts\activate
 =======
+
 venv\Scripts\activate
 >>>>>>> upstream/main
 
