@@ -37,7 +37,7 @@ source venv/bin/activate
 ```
 ```
 python -m venv venv
-venv\Scripts\activate
+.\venv\Scripts\activate
 ```
 ### 4. Instalar dependencias    
 ```
