@@ -37,7 +37,11 @@ source venv/bin/activate
 ```
 ```
 python -m venv venv
+<<<<<<< HEAD
 .\venv\Scripts\activate
+=======
+venv\Scripts\activate
+>>>>>>> upstream/main
 ```
 ### 4. Instalar dependencias    
 ```
