@@ -12,9 +12,30 @@ VitalMind es un agente inteligente diseñado para apoyar el seguimiento de salud
 - Integración con Semantic Kernel y Azure OpenAI
 - Soporte para plugins personalizados (como BloodPressurePlugin)
 
----
+--------------
+
+Jerarquia de archivos
+
+Estructura del repositorio
 
 
+.vscode/
+.github/
+data/                     # Archivos de datos como BloodPressuredataset.csv
+docs/                     # Documentación adicional
+notebooks/                # Notebooks Jupyter como agentia.ipynb, autoagent.ipynb
+src/                      # Código fuente principal
+    plugins/              # Plugins personalizados como BloodPressurePlugin
+    pipelines/            # Scripts relacionados con pipelines como BP_pipelines.py
+    main.py               # Archivo principal para ejecutar el proyecto
+tests/                    # Pruebas unitarias y de integración
+.env
+.env.example
+requirements.txt
+README.md
+LICENSE
+
+-----------------------
 
 ## ⚙️ Configuración del proyecto
 
@@ -35,16 +56,13 @@ cp .env.example .env
 python3 -m venv venv
 source venv/bin/activate
 ```
+
 ```
 python -m venv venv
 .\venv\Scripts\activate
-
-
-
-python3 -m venv venv
-source venv/bin/activate
-
 ```
+
+
 ### 4. Instalar dependencias    
 ```
 pip install -r requirements.txt
