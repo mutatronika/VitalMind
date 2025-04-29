@@ -57,7 +57,12 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+En Windows (PowerShell)
+Primero, habilita la ejecución de scripts si ves errores:
+
 ```
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
+
 python -m venv venv
 .\venv\Scripts\activate
 ```
@@ -65,6 +70,8 @@ python -m venv venv
 
 ### 4. Instalar dependencias    
 ```
+python.exe -m pip install --upgrade pip
+
 pip install -r requirements.txt
 
 ```
